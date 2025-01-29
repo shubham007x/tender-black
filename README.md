@@ -14,7 +14,7 @@ A simple and interactive **React Counter App** with **automatic increment** func
 ## 🚀 Installation & Setup
 ### **1️⃣ Clone the repository**
 ```
-git clone https://github.com/your-username/counter-app.git
+git clone https://github.com/shubham007x/tender-black.git
 cd counter-app
 ```
 2️⃣ Install dependencies
