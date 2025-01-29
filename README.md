@@ -25,11 +25,16 @@ npm install  # or yarn install
 ```
 npm start  # or yarn start
 ```
-The app will start on http://localhost:3000/.
-🛠️ Technologies Used
-React.js – Frontend framework
-useState, useEffect, useRef – React hooks for state management
-CSS – Custom styling for a modern look
+The app will start on http://localhost:3000/.  
+
+🛠️ Technologies Used  
+
+React.js – Frontend framework  
+
+useState, useEffect, useRef – React hooks for state management  
+
+CSS – Custom styling for a modern look  
+
 🖥️ Preview
 ![image](https://github.com/user-attachments/assets/5141050b-5560-4959-9e52-89f875e63c79)  
 ![image](https://github.com/user-attachments/assets/f7ac5b58-1b4b-4811-9396-e776963e89c6)  
