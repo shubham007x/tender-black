@@ -36,9 +36,9 @@ useState, useEffect, useRef – React hooks for state management
 CSS – Custom styling for a modern look  
 
 🖥️ Preview
-![image](https://github.com/user-attachments/assets/5141050b-5560-4959-9e52-89f875e63c79)  
-![image](https://github.com/user-attachments/assets/f7ac5b58-1b4b-4811-9396-e776963e89c6)  
-![image](https://github.com/user-attachments/assets/35fbc32f-2661-4f96-964f-6a14f450ad91)
+![image](https://github.com/user-attachments/assets/ff633887-6306-48ea-bbb6-2f98c2b8c98b)
+![image](https://github.com/user-attachments/assets/8c3cbc1d-2817-4e32-97ef-5220bf078d2b)
+
 
 📌 Future Enhancements
 ✅ Add more animations for button clicks
