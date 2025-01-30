@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Counter App ⏳
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive **React Counter App** with **automatic increment** functionality. This app allows users to manually or automatically increase/decrease/reset a counter with a modern UI.
 
-## Available Scripts
+## 🌟 Features
+- **Increment & Decrement**: Increase or decrease the count manually.
+- **Reset**: Reset the count to `0`.
+- **Automatic Mode**: Automatically increments the counter every **1.1 seconds**.
+- **Stops at 98**: Prevents counting beyond `98`.
+- **Modern UI**: Styled with a clean and responsive dark theme.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Installation & Setup
+### **1️⃣ Clone the repository**
+```
+git clone https://github.com/shubham007x/tender-black.git
+cd tender-black
+```
+2️⃣ Install dependencies
+```
+npm install  # or yarn install
+```
+3️⃣ Run the app
+```
+npm start  # or yarn start
+```
+The app will start on http://localhost:3000/.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🛠️ Technologies Used  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React.js – Frontend framework  
 
-### `npm test`
+useState, useEffect, useRef – React hooks for state management  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CSS – Custom styling for a modern look  
 
-### `npm run build`
+🖥️ Preview
+![image](https://github.com/user-attachments/assets/5141050b-5560-4959-9e52-89f875e63c79)  
+![image](https://github.com/user-attachments/assets/f7ac5b58-1b4b-4811-9396-e776963e89c6)  
+![image](https://github.com/user-attachments/assets/35fbc32f-2661-4f96-964f-6a14f450ad91)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📌 Future Enhancements
+✅ Add more animations for button clicks
+✅ Improve accessibility & mobile responsiveness
+✅ Implement sound effects for button clicks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+💡 Feel free to fork, contribute, and improve the project!
+👨‍💻 Made with ❤️ by Your shubham007x
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
