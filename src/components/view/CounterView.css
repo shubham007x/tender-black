@@ -1,0 +1,126 @@
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:black; 
+    color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 5rem;
+    border-radius: 25px;
+  }
+  
+  .counter-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: plum;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .counter-button {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid blue;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .counter-button:active {
+    transform: scale(0.95);
+  }
+  
+
+  .counter-button.increment {
+    background-color: gray-500; 
+    color:black;
+  }
+  
+  .counter-button.increment:hover {
+    background-color: #43a047;
+  }
+  
+  /* Decrement Button */
+  .counter-button.decrement {
+    background-color: gray-500; 
+    color:black;
+  }
+  
+  .counter-button.decrement:hover {
+    background-color: #e53935;
+  }
+  
+  /* Reset Button */
+  .counter-button.reset {
+    background-color: gray-500; 
+    color:black;
+  }
+  
+  .counter-button.reset:hover {
+    background-color: #fb8c00;
+  }
+  
+  .auto-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: gray-500;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .auto-button:hover {
+    background-color: greenyellow;
+  }
+  
+  .auto-button.active {
+    background-color: #d32f2f; 
+  }
+  
+  .auto-button.active:hover {
+    background-color: #c62828;
+  }
+  
+  /* Disabled Buttons */
+  .counter-button:disabled,
+  .auto-button:disabled {
+    background-color: #616161; /* Gray for disabled buttons */
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .counter-title {
+      font-size: 2rem;
+    }
+  
+    .counter-button,
+    .auto-button {
+      font-size: 1rem;
+      padding: 10px 15px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
